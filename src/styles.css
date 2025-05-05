@@ -69,3 +69,19 @@ main {
 .temperatures li {
   margin: 0.5rem;
 }
+
+@media screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;  
+    align-items: center;
+  }
+
+  .temperatures {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+}
